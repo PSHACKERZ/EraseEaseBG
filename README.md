@@ -1,13 +1,14 @@
 # EraseEaseBG - AI Background Removal Tool 🎨
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-id/deploy-status)](https://eraseeasebg.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e2a23a7-d785-486b-aef0-55812da11051/deploy-status)](https://eraseeasebg.netlify.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)](https://www.typescriptlang.org/)
 
 EraseEaseBG is a powerful, user-friendly web application that removes backgrounds from images instantly using advanced AI technology. Built with React and TypeScript, it offers a seamless experience for both personal and professional use.
 
-![EraseEaseBG Demo](./src/demo%20images/1.png)
+![EraseEaseBG Demo](./src/demo-images/2.png) ![EraseEaseBG Demo Removed Bg](./src/demo-images/remove%202.png)
+
 
 ## ✨ Features
 
@@ -33,7 +34,7 @@ EraseEaseBG is a powerful, user-friendly web application that removes background
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/EraseEaseBG.git
+   git clone https://github.com/PSHACKERZ/EraseEaseBG.git
    cd EraseEaseBG
    ```
 
@@ -100,9 +101,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Prince Sahni - [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+Prince Sahni - [@PS_Hacker](https://t.me/PS_Hacker)
 
-Project Link: [https://github.com/yourusername/EraseEaseBG](https://github.com/yourusername/EraseEaseBG)
+Project Link: [https://github.com/PSHACKERZ/EraseEaseBG](https://github.com/PSHACKERZ/EraseEaseBG)
 
 ---
 ⭐️ Star this repo if you find it helpful!
