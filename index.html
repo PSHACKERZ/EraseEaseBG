@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EraseEaseBG - Free Online Background Remover Tool</title>
     
     <!-- Primary Meta Tags -->
     <meta name="title" content="EraseEaseBG - Free Online Background Remover Tool">
     <meta name="description" content="Remove backgrounds from images instantly with EraseEaseBG. Free online tool powered by AI for perfect background removal. Support for PNG, JPG, and WebP formats.">
-    <meta name="keywords" content="background remover, remove background, AI background removal, free background remover, online photo editor, image background removal">
+    <meta name="keywords" content="background remover, remove background, AI background removal, free background remover, online photo editor, image background removal, transparent background, photo editing tool">
+    <meta name="author" content="EraseEaseBG">
+    <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -24,14 +27,53 @@
     <meta property="twitter:title" content="EraseEaseBG - Free Online Background Remover Tool">
     <meta property="twitter:description" content="Remove backgrounds from images instantly with EraseEaseBG. Free online tool powered by AI for perfect background removal.">
     <meta property="twitter:image" content="https://eraseeasebg.netlify.app/og-image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "EraseEaseBG",
+      "description": "Free online AI-powered background removal tool",
+      "url": "https://eraseeasebg.netlify.app/",
+      "applicationCategory": "Photo Editor",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Preconnect to required origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    
+    <!-- AdSense verification placeholder -->
+    <meta name="google-adsense-account" content="ca-pub-xxxxxxxxxxxxxxxx">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://eraseeasebg.netlify.app/">
+    <link rel="canonical" href="https://eraseeasebg.netlify.app/" />
     
     <!-- Additional Meta Tags -->
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="EraseEaseBG">
     <meta name="theme-color" content="#7C3AED">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ7BWK14R4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      // Default ad_storage to 'denied' and wait for consent
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied'
+      });
+      
+      gtag('config', 'G-FZ7BWK14R4');
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -1,0 +1,17 @@
+{
+  "name": "EraseEaseBG",
+  "short_name": "EraseEaseBG",
+  "description": "Free Online Background Remover Tool",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
