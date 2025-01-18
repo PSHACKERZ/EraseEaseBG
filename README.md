@@ -106,4 +106,4 @@ Prince Sahni - [@PS_Hacker](https://t.me/PS_Hacker)
 Project Link: [https://github.com/PSHACKERZ/EraseEaseBG](https://github.com/PSHACKERZ/EraseEaseBG)
 
 ---
-⭐️ Star this repo if you find it helpful!
+⭐️ Star this repo if you find it helpful! :)
