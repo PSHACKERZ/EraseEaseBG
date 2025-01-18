@@ -94,9 +94,9 @@ const PrivacyPolicy: React.FC = () => {
           <Typography variant="body1" paragraph>
             If you have any questions about this Privacy Policy, please contact us at:
             <br />
-            Email: privacy@eraseeasebg.com
+            Email: gamazing694@gmail.com
             <br />
-            Address: Silicon Valley, CA
+            Address: Delhi, India
           </Typography>
 
           <Typography variant="body1" paragraph>

@@ -30,7 +30,6 @@ const Header: React.FC = () => {
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link>
             <Link to="/about" className="text-gray-600 hover:text-gray-900">About Us</Link>
-            <Link to="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
             <Link to="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
             <Link to="/privacy-policy" className="text-gray-600 hover:text-gray-900">Privacy Policy</Link>
             <Link to="/terms" className="text-gray-600 hover:text-gray-900">Terms</Link>
@@ -49,7 +48,6 @@ const Header: React.FC = () => {
             <div className="flex flex-col space-y-4">
               <Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link>
               <Link to="/about" className="text-gray-600 hover:text-gray-900">About Us</Link>
-              <Link to="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
               <Link to="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
               <Link to="/privacy-policy" className="text-gray-600 hover:text-gray-900">Privacy Policy</Link>
               <Link to="/terms" className="text-gray-600 hover:text-gray-900">Terms</Link>

@@ -13,7 +13,7 @@ const MetaTags: React.FC<MetaTagsProps> = ({
   keywords = 'background removal, image editing, AI background remover, photo editing',
   ogImage = '/og-image.jpg'
 }) => {
-  const siteUrl = 'https://eraseeasebg.com'; // Replace with your actual domain
+  const siteUrl = 'https://eraseeasebg.netlify.app'; // Replace with your actual domain
 
   return (
     <Helmet>
@@ -35,9 +35,12 @@ const MetaTags: React.FC<MetaTagsProps> = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
 
-      {/* Additional Meta Tags */}
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      {/* Canonical URL */}
+      <link rel="canonical" href={siteUrl} />
+
+      {/* Additional SEO Meta Tags */}
       <meta name="robots" content="index, follow" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="language" content="English" />
 
       {/* Favicon */}

@@ -20,8 +20,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><Link to="/" className="text-gray-400 hover:text-white">Home</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
-              <li><Link to="/pricing" className="text-gray-400 hover:text-white">Pricing</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
+              <li><Link to="/cookie-policy" className="text-gray-400 hover:text-white">Cookie Policy</Link></li>
             </ul>
           </div>
 
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><Link to="/privacy-policy" className="text-gray-400 hover:text-white">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-gray-400 hover:text-white">Terms of Service</Link></li>
-              <li><Link to="/cookies" className="text-gray-400 hover:text-white">Cookie Policy</Link></li>
+              <li><Link to="/cookie-policy" className="text-gray-400 hover:text-white">Cookie Policy</Link></li>
             </ul>
           </div>
 
