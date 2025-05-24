@@ -1,9 +1,14 @@
 import React from 'react';
 import { Container, Typography, Box, Paper } from '@mui/material';
+import MetaTags from '../components/MetaTags';
 
 const PrivacyPolicy: React.FC = () => {
   return (
     <Container maxWidth="md">
+      <MetaTags
+        title="Privacy Policy - EraseEaseBG"
+        description="Read the EraseEaseBG Privacy Policy to understand how we collect, use, and protect your personal information and data when you use our background removal service."
+      />
       <Box py={4}>
         <Paper elevation={3} sx={{ p: 4 }}>
           <Typography variant="h3" component="h1" gutterBottom>
@@ -11,7 +16,7 @@ const PrivacyPolicy: React.FC = () => {
           </Typography>
           
           <Typography variant="body1" paragraph>
-            Last updated: January 18, 2025
+            Last updated: {new Date().toLocaleDateString()}
           </Typography>
 
           <Typography variant="h5" gutterBottom sx={{ mt: 3 }}>

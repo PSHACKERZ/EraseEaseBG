@@ -1,9 +1,14 @@
 import React from 'react';
 import { Container, Typography, Box, Paper } from '@mui/material';
+import MetaTags from '../components/MetaTags';
 
 const AboutUs: React.FC = () => {
   return (
     <Container maxWidth="md">
+      <MetaTags
+        title="About EraseEaseBG"
+        description="Learn more about EraseEaseBG, our mission to provide a free, high-quality AI background removal tool, and why users choose us."
+      />
       <Box py={4}>
         <Paper elevation={3} sx={{ p: 4 }}>
           <Typography variant="h3" component="h1" gutterBottom>

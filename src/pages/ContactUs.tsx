@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Typography, Box, Paper, TextField, Button, Grid, Snackbar, Alert } from '@mui/material';
 import emailjs from 'emailjs-com';
 import { emailConfig } from '../config/emailjs';
+import MetaTags from '../components/MetaTags';
 
 interface FormData {
   firstName: string;
@@ -109,6 +110,10 @@ const ContactUs: React.FC = () => {
 
   return (
     <Container maxWidth="lg" sx={{ py: 8 }}>
+      <MetaTags
+        title="Contact EraseEaseBG"
+        description="Get in touch with the EraseEaseBG team. Send us your questions, feedback, or inquiries through our contact form or via email."
+      />
       <Typography variant="h3" component="h1" gutterBottom align="center">
         Contact Us
       </Typography>

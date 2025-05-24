@@ -1,9 +1,14 @@
 import React from 'react';
 import { Container, Typography, Box, Paper } from '@mui/material';
+import MetaTags from '../components/MetaTags';
 
 const TermsOfService: React.FC = () => {
   return (
     <Container maxWidth="md">
+      <MetaTags
+        title="Terms of Service - EraseEaseBG"
+        description="Review the Terms of Service for EraseEaseBG. Understand your rights and responsibilities when using our free online background removal tool."
+      />
       <Box py={4}>
         <Paper elevation={3} sx={{ p: 4 }}>
           <Typography variant="h3" component="h1" gutterBottom>
@@ -11,7 +16,7 @@ const TermsOfService: React.FC = () => {
           </Typography>
           
           <Typography variant="body1" paragraph>
-            Last updated: January 18, 2025
+            Last updated: {new Date().toLocaleDateString()}
           </Typography>
 
           <Typography variant="h5" gutterBottom sx={{ mt: 3 }}>

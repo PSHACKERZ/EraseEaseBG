@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 
 interface MetaTagsProps {
   title: string;
@@ -14,6 +15,7 @@ const MetaTags: React.FC<MetaTagsProps> = ({
   ogImage = '/og-image.jpg'
 }) => {
   const siteUrl = 'https://eraseeasebg.netlify.app'; // Replace with your actual domain
+  const { pathname } = useLocation();
 
   return (
     <Helmet>
@@ -26,7 +28,7 @@ const MetaTags: React.FC<MetaTagsProps> = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${siteUrl}${ogImage}`} />
-      <meta property="og:url" content={siteUrl} />
+      <meta property="og:url" content={`${siteUrl}${pathname}`} />
       <meta property="og:type" content="website" />
 
       {/* Twitter Card Meta Tags */}
@@ -36,7 +38,7 @@ const MetaTags: React.FC<MetaTagsProps> = ({
       <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
 
       {/* Canonical URL */}
-      <link rel="canonical" href={siteUrl} />
+      <link rel="canonical" href={`${siteUrl}${pathname}`} />
 
       {/* Additional SEO Meta Tags */}
       <meta name="robots" content="index, follow" />

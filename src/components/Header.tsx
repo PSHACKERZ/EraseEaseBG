@@ -12,7 +12,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img src="/logo.svg" alt="EraseEaseBG Logo" className="h-8 w-auto" />
-              <h1 className="ml-2 text-xl font-bold text-gray-800">EraseEaseBG</h1>
+              <span className="ml-2 text-xl font-bold text-gray-800">EraseEaseBG</span>
             </Link>
           </div>
           
