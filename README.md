@@ -101,9 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Prince Sahni - [@PS_Hacker](https://t.me/PS_Hacker)
-
-Project Link: [https://github.com/PSHACKERZ/EraseEaseBG](https://github.com/PSHACKERZ/EraseEaseBG)
+[@PS_Hackerz](https://t.me/pshackerzofficial)
 
 ---
 ⭐️ Star this repo if you find it helpful! :)
