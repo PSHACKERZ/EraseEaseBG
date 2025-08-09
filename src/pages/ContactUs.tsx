@@ -126,12 +126,12 @@ const ContactUs: React.FC = () => {
         <Typography variant="body1" color="text.secondary">
           For quick responses, reach out to us on Telegram: {' '}
           <a 
-            href="https://t.me/PS_Hacker" 
+            href="https://t.me/PS_Hackerz" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ color: '#0088cc', textDecoration: 'none', fontWeight: 'bold' }}
           >
-            @PS_Hacker
+            @PS_Hackerz
           </a>
         </Typography>
       </Box>
